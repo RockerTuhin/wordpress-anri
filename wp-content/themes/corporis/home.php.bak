@@ -1,0 +1,416 @@
+<?php get_header(); ?>
+    <!--slider start-->
+    <div class="swiper-container js-FullHeight">
+        <div class="swiper-wrapper">
+            <section class="swiper-slide ImageBackground ImageBackground--overlay" data-overlay="3" data-scheme="light" data-swiper-autoplay="200">
+                <div class="ImageBackground__holder">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/imgs/swiper-slider/c0.jpg" alt="...">
+                </div>
+                <div class="container u-vCenter">
+                    <div class="row ">
+                        <div class="col-md-12 text-center text-white" data-animate="fadeInUp">
+                            <h1 class="text-uppercase u-FontSize60 u-xs-FontSize40 u-MarginTop0 u-MarginBottom5 u-LetterSpacing2 u-Weight700">Develop Your Business</h1>
+                            <p class="text-lg  text-white u-MarginBottom15" >You just imagine. We can build your dream. Sky is the limit.</p>
+                            <div class="u-MarginTop50 u-MarginBottom15">
+                                <a href="#" class="btn btn-primary u-MarginRight10">View our work</a>
+                                <a href="#" class="btn btn-white btn-white--transparent">Learn about Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="swiper-slide ImageBackground ImageBackground--overlay" data-overlay="0" data-scheme="light" data-swiper-autoplay="200">
+                <div class="ImageBackground__holder">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/imgs/swiper-slider/c1.jpg" alt="...">
+                </div>
+                <div class="container u-vCenter">
+                    <div class="row ">
+                        <div class="col-md-12 text-center" data-animate="fadeInUp">
+                            <h1 class="text-uppercase u-FontSize60 u-xs-FontSize40 u-LetterSpacing2 u-MarginTop0 u-MarginBottom5 u-Weight700">Entrust your business</h1>
+                            <p class="text-lg u-MarginBottom15">We love to create Creative template.</p>
+                            <div class="u-MarginTop50 u-MarginBottom15">
+                                <a href="#" class="btn btn-primary u-MarginRight10">View our work</a>
+                                <a href="#" class="btn btn-dark ">Learn about Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="swiper-slide ImageBackground ImageBackground--overlay" data-overlay="3" data-scheme="dark" data-swiper-autoplay="200">
+                <div class="ImageBackground__holder">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/imgs/swiper-slider/c2.jpg" alt="...">
+                </div>
+                <div class="container u-vCenter">
+                    <div class="row ">
+                        <div class="col-md-12 text-center text-white" data-animate="fadeInUp">
+                            <h1 class="text-uppercase u-FontSize60 u-xs-FontSize40 u-MarginTop0 u-MarginBottom5 u-LetterSpacing2 u-Weight700">Marketing & Sells</h1>
+                            <p class="text-lg text-white u-MarginBottom15">We marked that our alien is highly responsive to different screen sizes.</p>
+                            <div class="u-MarginTop50 u-MarginBottom15">
+                                <a href="#" class="btn btn-primary u-MarginRight10">View our work</a>
+                                <a href="#" class="btn btn-white btn-white--transparent">Learn about Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-control swiper-button-next"></div>
+        <div class="swiper-control swiper-button-prev"></div>
+    </div>
+    <!--slider end-->
+
+    <!--features start-->
+    <section class=" u-PaddingTop100 u-PaddingBottom100  u-xs-PaddingBottom30 u-xs-PaddingTop30 u-sm-PaddingTop50 u-MarginBottom0">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 col-sm-6 u-xs-MarginBottom30">
+                    <div class="Blurb u-PaddingLeft15 u-PaddingRight15">
+                        <div class="media u-OverflowVisible">
+                            <div class="media-left media-middle--">
+                                <div class="Thumb">
+                                    <i class="Blurb__hoverText Icon Icon-trophy Icon--32px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="Blurb__hoverText text-uppercase u-MarginTop5">Impressive Design</h4>
+                                <p class="u-LineHeight2">This one is a big one that has been haunting me since teenage years. When I was in highschool and beginning of University.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 u-xs-MarginBottom30">
+                    <div class="Blurb u-PaddingLeft15 u-PaddingRight15">
+                        <div class="media u-OverflowVisible">
+                            <div class="media-left media-middle--">
+                                <div class="Thumb">
+                                    <i class="Blurb__hoverText Icon Icon-traget Icon--32px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="Blurb__hoverText text-uppercase u-MarginTop5">Easy Customization</h4>
+                                <p class="u-LineHeight2">This one is a big one that has been haunting me since teenage years. When I was in highschool and beginning of University.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 u-xs-MarginBottom30">
+                    <div class="Blurb u-PaddingLeft15 u-PaddingRight15">
+                        <div class="media u-OverflowVisible">
+                            <div class="media-left media-middle--">
+                                <div class="Thumb">
+                                    <i class="Blurb__hoverText Icon Icon-tie-knot Icon--32px" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="Blurb__hoverText text-uppercase u-MarginTop5">Free Updates</h4>
+                                <p class="u-LineHeight2">This one is a big one that has been haunting me since teenage years. When I was in highschool and beginning of University.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--features end-->
+
+    <!--about start-->
+    <section class="bg-lighter">
+        <div class="ImageBlock">
+            <div class="ImageBlock__image col-md-6 col-sm-4">
+                <div class="ImageBackground ImageBackground--overlay" data-overlay="0">
+                    <div class="ImageBackground__holder">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/b1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <div class="u-MarginBottom30">
+                            <h1 class="u-MarginTop0 u-MarginBottom10 u-Weight700">Welcome To Our Website! </h1>
+                            <div class="Split"></div>
+                        </div>
+                        <h4 class="u-MarginTop0">Etharums ser quidem rerum facilis Lid est laborum dolo rumes fugats untras</h4>
+                        <p class="u-LineHeight2">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats.</p>
+                        <div class="row">
+                            <div class="col-md-6 u-MarginTop50">
+                                <ul class="list-unstyled u-LineHeight2 u-PaddingLeft0 u-PaddingRight0 ">
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> 100% Mobile Friendly</li>
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> Easy to Customize</li>
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> Cross Browser Compatible</li>
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> SEO Optimized</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 u-MarginTop50">
+                                <ul class="list-unstyled u-LineHeight2 u-PaddingLeft0 u-PaddingRight0 ">
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> Custom Post Type</li>
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> Design Quality</li>
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> Lots of Feature Available</li>
+                                    <li><i class="fa fa-angle-right u-MarginRight5" aria-hidden="true"></i> Excellent Code Quality</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about end-->
+
+    <!--testimonial start-->
+    <section class=" u-PaddingTop100 u-PaddingBottom100  u-xs-PaddingBottom30 u-xs-PaddingTop30 u-sm-PaddingTop50 u-MarginBottom0 u-zIndex10 position-relative">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-center u-MarginBottom100">
+                    <h1 class="u-MarginTop0 u-MarginBottom10 u-Weight700">Clients & Testimonials</h1>
+                    <div class="Split"></div>
+                </div>
+                <div class="col-md-5">
+                    <div class="js-OwlCarousel owl-carousel owl-theme OwlDots">
+                        <div class="owl-carousel-item">
+                            <div class="Thumb Thumb--62px Thumb--image Thumb--rounded">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/imgs/a0.jpg" alt="...">
+                            </div>
+                            <p class="text-italic u-MarginTop30">Curabitur in laoreet erat. Nam nec dui dolor. Aliquam varius dolor nunc, interdum commodo justoporttitor vitae. Quisque fermentum purus.</p>
+                            <h5 class="text-primary text-uppercase u-MarginTop30 u-MarginBottom5 u-Weight700">- Kevin Paige -</h5>
+                            <p class="small">CEO - Microsot</p>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <div class="Thumb Thumb--62px Thumb--image Thumb--rounded">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/imgs/a1.jpg" alt="...">
+                            </div>
+                            <p class="text-italic u-MarginTop30">Nam nec dui dolor. Curabitur in laoreet erat. Nam nec dui dolor. Aliquam varius dolor nunc, interdum commodo justoporttitor vitae. Quisque fermentum purus.</p>
+                            <h5 class="text-primary text-uppercase u-MarginTop30 u-MarginBottom5 u-Weight700">- Reveka Monika -</h5>
+                            <p class="small">CTO - Apple</p>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <div class="Thumb Thumb--62px Thumb--image Thumb--rounded">
+                                <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/imgs/a2.jpg" alt="...">
+                            </div>
+                            <p class="text-italic u-MarginTop30">Nam nec dui dolor. Curabitur in laoreet erat. Nam nec dui dolor. Aliquam varius dolor nunc, interdum commodo justoporttitor vitae. Quisque fermentum purus.</p>
+                            <h5 class="text-primary text-uppercase u-MarginTop30 u-MarginBottom5 u-Weight700">- Piter Paul -</h5>
+                            <p class="small">CTO - AVC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="Clients text-center">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/sponsors/sponsor5.png" alt="..." height="100">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/sponsors/sponsor6.png" alt="..." height="100">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/sponsors/sponsor7.png" alt="..." height="100">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/sponsors/sponsor4.png" alt="..." height="100">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/sponsors/sponsor8.png" alt="..." height="100">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/imgs/sponsors/sponsor9.png" alt="..." height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonial end-->
+
+    <!--parallax start-->
+    <section class="ImageBackground ImageBackground--overlay js-Parallax" data-overlay="6">
+        <div class="ImageBackground__holder">
+            <img src="<?php echo get_template_directory_uri();?>/assets/imgs/parallax2.jpg" alt="...">
+        </div>
+        <div class="container u-PaddingTop100 u-PaddingBottom100">
+            <div class="row u-PaddingTop100 u-PaddingBottom100">
+                <div class="col-md-12 text-center text-white">
+                    <p class="u-MarginBottom40"><a class="btn btn-play u-Rounded u-MarginRight10 popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="btn__iconCenter fa fa-play"></i></a></p>
+                    <h1 class="u-MarginTop0 u-MarginBottom5 u-FontSize50 u-xs-FontSize36">
+                    We Build Modern & Trendy Web</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--parallax end-->
+
+    <!--portfolio start-->
+    <!--<section class=" u-PaddingTop100   u-xs-PaddingTop30 u-sm-PaddingTop50 u-zIndex10 position-relative">-->
+        <!--<div class="container-fluid">-->
+            <!--<div class="row ">-->
+                <!--<div class="col-md-12 text-center u-MarginBottom100">-->
+                    <!--<h1 class="u-MarginTop0 u-MarginBottom10 u-Weight700">Our Works</h1>-->
+                    <!--<div class="Split"></div>-->
+                <!--</div>-->
+
+                <!--<div class="text-center">-->
+                    <!--<ul class="js-PortfolioFilter portfolio-filter text-center">-->
+                        <!--<li class="active"><a href="#" data-filter="*"> All</a></li>-->
+                        <!--<li><a href="#" data-filter=".cat1">printing</a></li>-->
+                        <!--<li><a href="#" data-filter=".cat2">Web</a></li>-->
+                        <!--<li><a href="#" data-filter=".cat3">illustration</a></li>-->
+                        <!--<li><a href="#" data-filter=".cat4">media</a></li>-->
+                        <!--<li><a href="#" data-filter=".cat5">crafts</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+
+                <!--<div class="js-Portfolio portfolio-grid portfolio-gallery grid-4 gutter-">-->
+                    <!--<div class="portfolio-item cat1 cat3 cat5">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="We are creative">-->
+                            <!--<img src="assets/imgs/portfolio/01.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>We are creative</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat2 cat3 cat4">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Branding">-->
+                            <!--<img src="assets/imgs/portfolio/02.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Branding</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat1 cat2 cat3">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Design">-->
+                            <!--<img src="assets/imgs/portfolio/03.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Design</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat1 cat4">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Photography">-->
+                            <!--<img src="assets/imgs/portfolio/04.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Photography</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat3 cat5">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Marketing">-->
+                            <!--<img src="assets/imgs/portfolio/05.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Marketing</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat4 cat5">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Web Desgin">-->
+                            <!--<img src="assets/imgs/portfolio/06.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Web Design</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat2 cat3">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Media">-->
+                            <!--<img src="assets/imgs/portfolio/07.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Media</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="portfolio-item cat3 cat4 cat5">-->
+                        <!--<a href="portfolio-details.html" class="portfolio-image" title="Portfolio">-->
+                            <!--<img src="assets/imgs/portfolio/08.jpg" alt=""/>-->
+                            <!--<div class="portfolio-hover-title">-->
+                                <!--<div class="portfolio-content">-->
+                                    <!--<h4>Portfolio</h4>-->
+                                    <!--<div class="portfolio-category">-->
+                                        <!--<span>Cat 1</span>-->
+                                        <!--<span>Cat 2</span>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
+    <!--portfolio end-->
+
+    <!--steps start-->
+    <section class="u-PaddingTop90 u-PaddingBottom90">
+        <div class="container">
+            <div class="row u-MarginTop20">
+                <div class="col-md-12 text-center">
+                    <div class="Steps">
+                        <div class="Step">
+                            <div class="Step__thumb u-BoxShadow100">
+                                <span class="Step__thumb-number">01</span>
+                                <i class="Icon Icon-user-group"></i>
+                            </div>
+                            <h3>Concept</h3>
+                            <p class="u-MarginTop20">Lid est laborum dolo rumes fugats</p>
+                        </div>
+                        <div class="Step">
+                            <div class="Step__thumb StepCurve StepCurve--down">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/imgs/step-downcurve.png" alt="">
+                            </div>
+                        </div>
+                        <div class="Step">
+                            <div class="Step__thumb u-BoxShadow100">
+                                <span class="Step__thumb-number">02</span>
+                                <i class="Icon Icon-trophy"></i>
+                            </div>
+                            <h3>Design</h3>
+                            <p class="u-MarginTop20 ">Lid est laborum dolo rumes fugats</p>
+                        </div>
+                        <div class="Step">
+                            <div class="Step__thumb StepCurve StepCurve--up">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/imgs/step-upcurve.png" alt="">
+                            </div>
+                        </div>
+                        <div class="Step">
+                            <div class="Step__thumb u-BoxShadow100">
+                                <span class="Step__thumb-number">03</span>
+                                <i class="Icon Icon-support"></i>
+                            </div>
+                            <h3>Performance</h3>
+                            <p class="u-MarginTop20">Lid est laborum dolo rumes fugats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--steps end-->
+    <?php get_footer(); ?>

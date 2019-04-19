@@ -1,0 +1,39 @@
+.count-block
+    display: inline-block
+    margin: 0 20px
+    border-radius: 10px
+    padding: 20px 40px
+    +mobile
+        padding: 10px 0px
+
+
+    h2
+        margin: 0
+        font-weight: bold
+
+
+    span
+        font-size: 16px
+
+
+.count-transparent
+    .count-block
+        background: rgba(249,0,72,.5)
+        margin-bottom: 20px
+
+
+.text-left
+    .count-transparent
+        .count-block
+            margin: 0 20px 0 0
+
+        .count-block:first-child
+            padding-left: 40px
+
+    .count-block
+        margin: 0 20px 0 0
+
+    .count-block:first-child
+        padding-left: 0
+
+

@@ -1,0 +1,23 @@
+
+---Upload files---
+Content file was not uploaded. Error: File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.
+
+---Upload files---
+Widget file was not uploaded. Error: File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.
+
+---Upload files---
+Redux file was not uploaded. Error: File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress-new
+Data file = not defined!
+Widget file = not defined!
+Customizer file = /Applications/XAMPP/xamppfiles/htdocs/wordpress-new/wp-content/uploads/2018/12/customizer.dat
+Redux files:
+not defined!
+
+---Importing customizer settings---
+Customizer settings import finished!

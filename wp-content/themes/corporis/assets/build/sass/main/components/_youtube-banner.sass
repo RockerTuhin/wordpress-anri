@@ -1,0 +1,48 @@
+/* video banner */
+
+.video-ban
+    position: relative
+    overflow: hidden
+
+    .video-content
+        position: absolute
+        top: 50%
+        left: 50%
+        z-index: 1
+        min-width: 100%
+        min-height: 100%
+        width: auto
+        height: auto
+        transform: translate(-50%, -50%)
+
+
+.video-overlay
+    position: absolute
+    z-index: 5
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, .5)
+    backface-visibility: hidden
+
+
+.relative
+    position: relative
+
+
+.content
+    z-index: 2
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: 100%
+    left: 0
+    right: 0
+    margin: 0 auto
+
+    @media (max-width: 767px)
+        width: 100%
+
+
+
